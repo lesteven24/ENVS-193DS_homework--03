@@ -26,9 +26,9 @@ library(ggplot2)
 library(ggeffects)
 library(flextable)
 #stored kelp data as an object called kelp
-kelp <- read_csv("temp-kelp.csv")
+kelp <- read_csv("data/temp-kelp.csv")
 #stored personal data as an object called personal
-personal <- read_csv("personal_data.csv")
+personal <- read_csv("data/personal_data.csv")
 
 ```
 
@@ -110,7 +110,7 @@ To evaluate the strength of the relationship between temperature and giant kelp 
 
 ## e.
 
-
+Giant kelp seems to grow faster in cooler temperatures as our data seems to suggest that as the temperature (Celsius) increases, the elongation rate (cm/day) of giant kelp frond elongation rate slows down.  In other words, the highest elongation rates were found in the coolest temperatures recorded whereas the slowest elongatin rates were found in the highest temperatures recorded.  Therefore, giant kelp health is most likely better maintained in temperatures that are not as warm since it would help with their frond elongation to continue growing at a higher rate.   
 
 ## f.
 
