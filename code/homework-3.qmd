@@ -36,7 +36,7 @@ personal <- read_csv("personal_data.csv")
 
 ## a. 
 
-To determine the strength of the relationship between temperature and giant kelp frond elongation, you need to conduct a Pearson's correlation test and Spearman rank correlation test.  A Pearson's correlation test is a parametric test that analyzes a linear relationship between continuous variables that are normally distributed (debatable).  On the other hand, a Spearman rank correlation test is the non-parametric version that looks as a monotonic relationhsip between variables that have independently observed samples.  
+To determine the strength of the relationship between temperature and giant kelp frond elongation, you need to conduct a Pearson's correlation test and Spearman rank correlation test.  A Pearson's correlation test is a parametric test that analyzes a linear relationship between continuous variables that are normally distributed (debatable).  On the other hand, a Spearman rank correlation test is the non-parametric version that looks as a monotonic relationship between variables that have independently observed samples.  
 
 ## b.
 
@@ -59,7 +59,50 @@ ggplot(data = kelp,
 
 ## c.
 
+## QQ plot figure for temperature:
 
+```{r}
+
+#base layer: ggplot with starting data frame
+ggplot(data = kelp,
+#y-axis for QQ plot (no x-axis)
+aes(sample = temp_c)) +
+#first layer: QQ reference line colored red
+geom_qq_line(color = "red") +
+#second layer: QQ plot
+geom_qq() 
+
+```
+
+## QQ plot figure for giant kelp frond elongation rate:
+
+```{r}
+
+#base layer: ggplot with starting data frame
+ggplot(data = kelp,
+#y-axis for QQ plot (no x-axis)
+aes(sample = kelp_elong)) +
+#first layer: QQ reference line colored red
+geom_qq_line(color = "red") +
+#second layer: QQ plot
+geom_qq() 
+
+```
+
+## Evaluating Pearson's correlation test assumptions:
+
+By making QQ plots for each of the two variables, we were able to interpret if the variables, respectively, are normally distributed.  Looking at both QQ plots, temperature (Celsius) and giant kelp frond elongation rate (cm/day) look normally distributed as most of the points roughly follow the reference line in each plot.  For the other three assumptions, there does seem to be a linear (negative) relationship between the variables based on the scatterplot, the variables are definitely continuous, and we can give the benefit of the doubt that the data were collected through independent observations.    
+
+## Pearson's correlation test code chunk:
+
+```{r}
+
+#ran a correlation test between temperature and kelp elongation rate
+cor.test(kelp$kelp_elong, kelp$temp_c,
+#used Pearson's r correlation test         
+         method = "pearson")
+
+```
 
 ## d.
 
