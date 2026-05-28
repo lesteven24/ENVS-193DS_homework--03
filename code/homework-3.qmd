@@ -106,12 +106,62 @@ cor.test(kelp$kelp_elong, kelp$temp_c,
 
 ## d.
 
-To evaluate the strength of the relationship between temperature and giant kelp frond elongation rate, I used a Pearson's correlation test since each of the variables has a roughly normal distribution, the variables are continuous, and the sample size is large (n > 30).  We found a moderate negative relationship between temperature (Celsius) and giant kelp frond elongation rate (cm/day) (Pearson's r = -0.69, t(30) = -5.19, p < 0.0001, $\alpha$ = 0.05)
+To evaluate the strength of the relationship between temperature and giant kelp frond elongation rate, I used a Pearson's correlation test since each of the variables has a roughly normal distribution, the variables are continuous, and the sample size is large (n > 30).  We found a moderate negative relationship between temperature (Celsius) and giant kelp frond elongation rate (cm/day) (Pearson's r = -0.69, t(30) = -5.19, p < 0.0001, $\alpha$ = 0.05).
 
 ## e.
 
 
 
 ## f.
+
+
+
+# Problem 2. Personal data
+
+## a.
+
+
+
+## b.
+
+
+
+# Problem 3. Affective visualization
+
+## a.
+
+
+
+## b.
+
+
+
+## c.
+
+
+
+## d.
+
+
+
+## e.
+
+
+
+# Problem 4. Statistical critique
+
+## a.
+
+
+
+## b.
+
+
+
+## c.
+
+
+
+## d.
 
 
