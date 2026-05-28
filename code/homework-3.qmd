@@ -40,7 +40,22 @@ To determine the strength of the relationship between temperature and giant kelp
 
 ## b.
 
+```{r}
 
+#base layer: ggplot
+ggplot(data = kelp,
+#x-axis: temperature, y-axis: kelp elongation rate       
+       mapping = aes(x = temp_c,
+                     y = kelp_elong)) + 
+#first layer: geom_point
+  geom_point(color = "darkgreen") + #changed color of points to dark green
+#renamed x- and y-axes and added units  
+  labs(x = "Temperature (\u00B0C)",
+       y = "Kelp Elongation Rate (cm/day)") +
+#changed theme from default  
+  theme_minimal()
+
+```
 
 ## c.
 
