@@ -1,0 +1,57 @@
+---
+title: "ENVS 193DS Homework 3"
+date: "5/23/26" 
+author: "Steven Le"
+format: pdf 
+execute:
+  warning: false
+  message: false
+editor: source
+include-in-header:
+      text: |
+        \usepackage{fvextra}
+        \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+---
+
+# Homework set up
+
+```{r}
+
+#read in packages
+library(tidyverse)
+library(here)
+library(janitor)
+library(readxl)
+library(ggplot2)
+library(ggeffects)
+library(flextable)
+#stored kelp data as an object called kelp
+kelp <- read_csv("temp-kelp.csv")
+#stored personal data as an object called personal
+personal <- read_csv("personal_data.csv")
+
+```
+
+# Problem 1. Giant kelp fronds 
+
+## a. 
+
+To determine the strength of the relationship between temperature and giant kelp frond elongation, you need to conduct a Pearson's correlation test and Spearman rank correlation test.  A Pearson's correlation test is a parametric test that analyzes a linear relationship between continuous variables that are normally distributed (debatable).  On the other hand, a Spearman rank correlation test is the non-parametric version that looks as a monotonic relationhsip between variables that have independently observed samples.  
+
+## b.
+
+
+
+## c.
+
+
+
+## d.
+
+
+
+## e.
+
+
+
+## f.
