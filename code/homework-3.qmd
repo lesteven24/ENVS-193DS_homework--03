@@ -25,10 +25,11 @@ library(readxl)
 library(ggplot2)
 library(ggeffects)
 library(flextable)
+library(here)
 #stored kelp data as an object called kelp
-kelp <- read_csv("data/temp-kelp.csv")
+kelp <- read_csv(here("data", "temp-kelp.csv"))
 #stored personal data as an object called personal
-personal <- read_csv("data/personal_data.csv")
+personal <- read_csv(here("data", "personal_data.csv"))
 
 ```
 
