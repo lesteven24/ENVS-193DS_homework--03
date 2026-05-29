@@ -209,7 +209,7 @@ ggplot(data = personal_clean,
 
 ## a.
 
-
+For my affective visualization, I want to make it relateable to how water consumption by humans can negative affect the environment.  In order to do that, I plan to use my bar chart distribution as the background for how terrestrial life can slowly deteriorate when people use up water from natural environments.  The higher parts of the distribution can blend into parts of the background that are a lot less green, symbolism to higher water bottle refill frequency.  For my scatterplot though, I want to use it underwater in my visualization where every part underneath the highest points in the graph will be littered with plastic water bottles. The imagery here could be that the points of highest water bottle refills will have the most plastic water bottles in my visualization, a symbolism to the litter we have in our world's waters.  
 
 ## b.
 
