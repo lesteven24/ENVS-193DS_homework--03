@@ -231,11 +231,13 @@ For my visualization, I am trying to show the reality of what happens when we ig
 
 ## a.
 
+The name of the test I selected was an analysis of variance (ANOVA).  The response variable is a unit, which is represented by 9 values where 3 are NPS parks in the Sierra Nevadas and the remaining 6 are USFS forests next to those parks.  The predictor variable is the area burned, in hectares, by prescribed wildfires meant for suppression or resource benefits.
 
+![Paper figure](paper_figure.png)
 
 ## b.
 
-
+I think the authors only did an okay job at handling the visual
 
 ## c.
 
