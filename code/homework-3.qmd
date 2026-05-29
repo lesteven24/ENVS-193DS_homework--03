@@ -237,7 +237,7 @@ The name of the test I selected was an analysis of variance (ANOVA).  The respon
 
 ## b.
 
-I think the authors only did an okay job at handling the visual
+I think the authors only did an okay job at handling the visual clutter because although they managed to remove the gridlines or most likely used a minimal theme, the numbers on the y-axis could have been reduced to an easier unit to read.  In addition, the date for when the data was being recorded literally overlaps with one of the bars in the chart.  Therefore, I would say the data:ink ratio is not very high as there is lots of wording as well, which is reasonable though since there are 9 bars total.  
 
 ## c.
 
