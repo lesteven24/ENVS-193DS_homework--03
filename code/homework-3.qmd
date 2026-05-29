@@ -201,7 +201,7 @@ ggplot(data = personal_clean,
 
 ## b.
 
-**Figure 1.  Number of times water bottle is refilled depending on weather.**  Each bar represents frequency of water bottle being refilled every day from weeks 4-9 based on four weather categories: Cloudy, Night, Sunny, and Windy.       
+**Figure 1.  Number of times water bottle is refilled depending on weather.**  Each bar (dark blue) represents frequency of water bottle being refilled every day from weeks 4-9 based on four weather categories: Cloudy, Night, Sunny, and Windy.       
 
 **Figure 2.  Number of times water bottle is refilled based on temperature.**  Points (dark red circles) represent frequency of water bottle being refilled at a specified temperature every day from weeks 4-9.       
 
@@ -225,7 +225,7 @@ For my visualization, I am trying to show the reality of what happens when we ig
 
 ## e.
 
-
+[View Slides](https://docs.google.com/presentation/d/1UBWH2dUcW3ISNgImpY5vJY3ra7BDg0eoF2FtFQj7Jqw/edit?slide=id.g3e561da4f6a_0_0#slide=id.g3e561da4f6a_0_0)
 
 # Problem 4. Statistical critique
 
