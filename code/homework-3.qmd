@@ -200,7 +200,9 @@ ggplot(data = personal_clean,
 
 ## b.
 
+**Figure 1.  Number of times water bottle is refilled depending on weather.**  Each bar represents frequency of water bottle being refilled every day from weeks 4-9 based on four weather categories: Cloudy, Night, Sunny, and Windy.       
 
+**Figure 2.  Number of times water bottle is refilled based on temperature.**  Points (dark red circles) represent frequency of water bottle being refilled at a specified temperature every day from weeks 4-9.       
 
 # Problem 3. Affective visualization
 
