@@ -2,7 +2,9 @@
 title: "ENVS 193DS Homework 3"
 date: "5/23/26" 
 author: "Steven Le"
-format: pdf 
+format: 
+  pdf:
+    toc: true 
 execute:
   warning: false
   message: false
