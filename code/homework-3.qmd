@@ -128,7 +128,7 @@ exact = FALSE)
 
 ```
 
-The Pearson's correlation and Spearman rank correlation tests would have led us to the same decision about the null hypothesis as the p-value is still less than our significance level of 0.05, which means we can reject the null hypothesis.  Therefore, there does seem to be a relationship between between temperature (Celsius) and giant kelp frond elongation rate (cm/day).  In addition, the Spearman rank correlation value was roughly -0.69, which was the same as our Pearson's correlation value, so there seems to be a a moderate negative relationship between temperature (Celsius) and giant kelp frond elongation rate (cm/day) (Spearman $\rho$ = -0.69, S = 9216, p < 0.0001, $\alpha$ = 0.05).   
+The Pearson's correlation and Spearman rank correlation tests would have led us to the same decision about the null hypothesis as the p-values for both are less than our significance level of 0.05, which means we can reject the null hypothesis.  Therefore, there does seem to be a relationship between between temperature (Celsius) and giant kelp frond elongation rate (cm/day).  The Spearman rank correlation value was roughly -0.69, so there seems to be a a moderate negative relationship between temperature (Celsius) and giant kelp frond elongation rate (cm/day) (Spearman $\rho$ = -0.69, S = 9216, p < 0.0001, $\alpha$ = 0.05).  Similarly, the Pearson's correlation value was roughly -0.69, so the effect size seems to be moderate for the negative relationship between temperature (Celsius) and giant kelp frond elongation rate (cm/day) (Pearson's r = -0.69, t(30) = -5.19, p < 0.0001, $\alpha$ = 0.05) when conducting a Pearson's correlation test as well.  
 
 # Problem 2. Personal data
 
