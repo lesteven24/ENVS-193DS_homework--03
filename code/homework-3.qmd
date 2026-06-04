@@ -37,11 +37,11 @@ personal <- read_csv(here("data", "personal_data.csv"))
 
 # Problem 1. Giant kelp fronds 
 
-## a. 
+## a. An appropriate test
 
 To determine the strength of the relationship between temperature and giant kelp frond elongation, you need to conduct a Pearson's correlation test and Spearman rank correlation test.  A Pearson's correlation test is a parametric test that analyzes a linear relationship between continuous variables that are normally distributed (debatable).  On the other hand, a Spearman rank correlation test is the non-parametric version that looks as a monotonic relationship between variables that have independently observed samples.  
 
-## b.
+## b. Create a visualization
 
 ```{r}
 
@@ -60,9 +60,9 @@ ggplot(data = kelp,
 
 ```
 
-## c.
+## c. Check your assumptions and run your test
 
-## QQ plot figure for temperature:
+### QQ plot figure for temperature
 
 ```{r}
 
@@ -77,7 +77,7 @@ geom_qq()
 
 ```
 
-## QQ plot figure for giant kelp frond elongation rate:
+### QQ plot figure for giant kelp frond elongation rate
 
 ```{r}
 
@@ -92,11 +92,11 @@ geom_qq()
 
 ```
 
-## Evaluating Pearson's correlation test assumptions:
+### Evaluating Pearson's correlation test assumptions
 
 By making QQ plots for each of the two variables, we were able to interpret if the variables, respectively, are normally distributed.  Looking at both QQ plots, temperature (Celsius) and giant kelp frond elongation rate (cm/day) look normally distributed as most of the points roughly follow the reference line in each plot.  For the other three assumptions, there does seem to be a linear (negative) relationship between the variables based on the scatterplot, the variables are definitely continuous, and we can give the benefit of the doubt that the data were collected through independent observations.    
 
-## Pearson's correlation test code chunk:
+### Pearson's correlation test code chunk
 
 ```{r}
 
@@ -107,15 +107,15 @@ cor.test(kelp$kelp_elong, kelp$temp_c,
 
 ```
 
-## d.
+## d. Results communication
 
 To evaluate the strength of the relationship between temperature and giant kelp frond elongation rate, I used a Pearson's correlation test since each of the variables has a roughly normal distribution, the variables are continuous, and the sample size is large (n > 30).  We found a moderate negative relationship between temperature (Celsius) and giant kelp frond elongation rate (cm/day) (Pearson's r = -0.69, t(30) = -5.19, p < 0.0001, $\alpha$ = 0.05).
 
-## e.
+## e. Test implications
 
 Giant kelp seems to grow faster in cooler temperatures as our data seems to suggest that as the temperature (Celsius) increases, the elongation rate (cm/day) of giant kelp frond elongation rate slows down.  In other words, the highest elongation rates were found in the coolest temperatures recorded whereas the slowest elongatin rates were found in the highest temperatures recorded.  Therefore, giant kelp health is most likely better maintained in temperatures that are not as warm since it would help with their frond elongation to continue growing at a higher rate.   
 
-## f.
+## f. Double check your own work
 
 ```{r}
 
@@ -132,7 +132,7 @@ The Pearson's correlation and Spearman rank correlation tests would have led us 
 
 # Problem 2. Personal data
 
-## a.
+## a. Updating your visualizations
 
 ```{r}
 
@@ -201,7 +201,7 @@ ggplot(data = personal_clean,
 
 ```
 
-## b.
+## b. Captions
 
 **Figure 1.  Number of times water bottle is refilled depending on weather.**  Each bar (dark blue) represents frequency of water bottle being refilled every day from weeks 4-9 based on four weather categories: Cloudy, Night, Sunny, and Windy.       
 
@@ -209,42 +209,42 @@ ggplot(data = personal_clean,
 
 # Problem 3. Affective visualization
 
-## a.
+## a. Describe your personal affective visualization 
 
-For my affective visualization, I want to make it relateable to how water consumption by humans can negative affect the environment.  In order to do that, I plan to use my bar chart distribution as the background for how terrestrial life can slowly deteriorate when people use up water from natural environments.  The higher parts of the distribution can blend into parts of the background that are a lot less green, symbolism to higher water bottle refill frequency.  For my scatterplot though, I want to use it underwater in my visualization where every part underneath the highest points in the graph will be littered with plastic water bottles. The imagery here could be that the points of highest water bottle refills will have the most plastic water bottles in my visualization, a symbolism to the litter we have in our world's waters.  
+For my affective visualization, I want to make it relatable to how water consumption by humans can negative affect the environment.  In order to do that, I plan to use my bar chart distribution as the background for how terrestrial life can slowly deteriorate when people use up water from natural environments.  The higher parts of the distribution can blend into parts of the background that are a lot less green, symbolism to higher water bottle refill frequency.  For my scatterplot though, I want to use it underwater in my visualization where every part underneath the highest points in the graph will be littered with plastic water bottles. The imagery here could be that the points of highest water bottle refills will have the most plastic water bottles in my visualization, a symbolism to the litter we have in our world's waters.  
 
-## b.
+## b. Create a sketch of your idea
 
 ![Photo of affective visualization sketch](IMG_0027.png)
 
-## c.
+## c. Make a draft of your visualization
 
 ![Photo of affective visualization draft](IMG_0028.png)
 
-## d.
+## d. Write an artist statement 
 
 For my visualization, I am trying to show the reality of what happens when we ignore the consequences of protecting the health of the natural environment through pollution and overharvesting.  I would say the main influence of my piece is just the idea of realism where we document the the environment as it really is instead of glorifying it as some sort of separate entity from the urban world.  I decided to make my visualization digitally but drew it out myself, highlighting the two plots I made as the dead trees represent my bar chart and the plastic bottles flowing in the water are the points in my scatterplot.  
 
-## e.
+## e. Prep your materials to share in class
 
 [View Slides](https://docs.google.com/presentation/d/1UBWH2dUcW3ISNgImpY5vJY3ra7BDg0eoF2FtFQj7Jqw/edit?slide=id.g3e561da4f6a_0_0#slide=id.g3e561da4f6a_0_0)
 
 # Problem 4. Statistical critique
 
-## a.
+## a. Revisit and summarize
 
 The name of the test I selected was an analysis of variance (ANOVA).  The response variable is a unit, which is represented by 9 values where 3 are NPS parks in the Sierra Nevadas and the remaining 6 are USFS forests next to those parks.  The predictor variable is the area burned, in hectares, by prescribed wildfires meant for suppression or resource benefits.
 
 ![Paper figure](paper_figure.png)
 
-## b.
+## b. Visual clarity
 
 The authors were relatively clear in visually representing their statistics in the figures as I could analyze where each bar fell on the y-axis relative to their label on their x-axis and the colors separated the type of sites that they looked at.  Each of the labels on the x-axis were long, so they did a really good job in angling it, so each name could be legible to the reader.  However, they did not show any summary statistics or model predictions.   
 
-## c.
+## c. Aesthetic clarity
 
 I think the authors only did an okay job at handling the visual clutter because although they managed to remove the gridlines or most likely used a minimal theme, the numbers on the y-axis could have been reduced to an easier unit to read.  In addition, the years for when the data was being recorded literally overlaps with one of the bars in the chart.  Therefore, I would say the data:ink ratio is not very high as there is lots of wording as well, which is reasonable though since there are 9 bars total in the charts.
 
-## d.
+## d. Recommendations 
 
 Something I would change to the figure is to move the years for when the data was recorded to another part of the figure or even outside of it as it overlaps with one of the bars, which does not contribute to the legibility of the figure.  Furthermore, I would reduce the units for the response variable even further so that the numbers on the y-axis would have less zeros, reducing the about of ink that is on the figure.  The authors may have added the summary statistics or model predictions separately in another part of the paper, but if that was not the case, I would probably add that in this case to help us understand any important values.
