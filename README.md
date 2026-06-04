@@ -14,4 +14,4 @@ There is a 'code' folder in which all code for the homework, plot, figure, and a
 ## Rendered output 
 
 The rendered .pdf for Homework 3 is 
-[here]()
+[here](https://github.com/lesteven24/ENVS-193DS_homework--03/blob/main/code/homework-3.pdf)
